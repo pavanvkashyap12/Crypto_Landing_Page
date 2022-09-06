@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    background-image: url("./assets/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+[aria-label="navbar"]{
+    background-color: #000000;
+}
+
+.navbar{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 0;
+    
+ }
+
+ .navbar img{
+    height: 2.3rem;
+}
+
+.line{
+    height: 3rem;
+    margin: 0 3.5rem;
+    border-left: 2px solid #FFFFFF;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+.list-item{
+    padding: 0 2rem;
+    font-weight: 500;
+}
+
+.button-small {
+    margin-left: 20rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    padding:  0.8rem 1.8rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #b738da;
+    color: #fff;
+  }
+
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+  }
+
+  .hero-heading{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 7rem;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+  }
+
+  .hero-description{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+  }
+
+  .button-large{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding:  0.8rem 1.8rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #b738da;
+    color: #fff;
+  }
+  
+
